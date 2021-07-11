@@ -1,1 +1,0 @@
-https://ArkhipovAnatoly.github.io/rsschool-cv/cv
