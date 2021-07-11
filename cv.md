@@ -2,24 +2,40 @@
 
 #### Nizhny Novgorod, Russia
 
-### CONTACTS
+### Conatcts
 
-Phone: **+7 950 612-87-72**
+Phone: **+7 950 612-87-72**\
+E-mail: **arhipovanatoly@gmail.com**\
+GitHub:[ArkhipovAnatoly](https://github.com/ArkhipovAnatoly)
 
-E-mail: **atol83@mail.ru**
-
-### SUMMARY
+### Summary
 
 I am self-motivated and team player with excellent communication, analytical and problem solving skills.
 
-My today's goal is to develop in the way of web development.
+My today's goal is to develop in the way of web-development.
 
-### WEB SKILLS:
+### Software Skills/Tools
 
-I have got basics knowlege:
+- HTML5, CSS3, Bootstrap
+- C, C++, C#, Javascript, JSX, Typescript
+- jQuery, React
+- Visial Studio code/Microsoft Visual Studio
+- Github
 
-- HTML, Cascading Stylesheets CSS, Javascript, Typescript, Bootstrap.
+### Experiance
 
-### EXPERIENCE
+At the moment, I have no commercial experience as a web-developer, but I am working hard to achieve this goal.
 
-At the moment, I have no commercial experience, but I am working hard to achieve this goal.
+### Education
+
+Lobachevsky State University of Nizhni Novgorod, Radiophysics and Electonics Speciality, 2008
+
+### Courses
+
+- [Nizhny Novgorod IT Academy](https://nn.itstep.org/)
+- On-line course [Udemy Course "Web Development"](https://www.udemy.com/)
+
+### Languages
+
+- Russian
+- English B1
