@@ -1,1 +1,1 @@
-https://ArkhipovAnatoly.github.io/rsschool-cv/cv
+https://ArkhipovAnatoly.github.io/rsschool-cv/
