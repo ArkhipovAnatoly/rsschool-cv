@@ -1,203 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="images/favicons/favicon.ico" />
+    <title>CV Anatoly Arkhipov</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles/style.css" />
-  <link rel="icon" href="images/favicons/favicon.ico">
-  <title>CV Anatoly Arkhipov</title>
-</head>
+  <body>
+    <div class="container">
+      <main class="main">
+        <header class="header">
+          <div class="user">
+            <img
+              class="user-avatar"
+              src="images/avatar-photo.png"
+              width="200px"
+              height="200px"
+              alt="photo-user-avatar"
+            />
+          </div>
+        </header>
 
-<body>
-  <div class="container">
-    <main class="main">
-      <header class="header">
-        <div class="user">
-          <img class="user-avatar" src="images/avatar-photo.png" alt="photo-avatar" />
-
+        <div class="intro">
+          <div class="intro-inner">
+            <section class="intro-content">
+              <span class="intro-subtitle">Hello i'm</span>
+              <h1 class="intro-title">Anatoly Arkhipov</h1>
+              <span class="intro-text">a Web Developer</span>
+            </section>
+            <section class="intro-contacts">
+              <h2 class="intro-subtitle">Let's get in touch:</h2>
+              <ul>
+                <li class="contacts-item">
+                  <img
+                    class="contacts-item-icon"
+                    src="images/icons/email.png"
+                    width="32px"
+                    height="32px"
+                    alt="email-icon"
+                  />
+                  <a href="mailto:arhipovanatoly@gmail.com"
+                    ><strong>arhipovanatoly@gmail.com</strong></a
+                  >
+                </li>
+                <li class="contacts-item">
+                  <img
+                    class="contacts-item-icon"
+                    src="images/icons/phone-call.png"
+                    width="32px"
+                    height="32px"
+                    class="phone-icon"
+                  />
+                  <a href="tel:+79506128772"
+                    ><strong>+7 (950)-612-87-72</strong>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </div>
         </div>
 
-      </header>
+        <section class="works">
+          <h3 class="text-center">My works</h3>
+          <div class="portfolio">
+            <div class="work">
+              <img
+                class="work-photo"
+                src="images/content/browser-game-logo.png"
+                width="370px"
+                height="209px"
+                alt="work-game-logo"
+              />
+              <div class="work-content">
+                <div class="work-cat">category: Games</div>
+                <div class="work-title">
+                  <a
+                    href="https://arkhipovanatoly.github.io/Game/"
+                    target="_blank"
+                    >Brouser Game Example
+                  </a>
+                  <div class="work-date">2019</div>
+                </div>
+              </div>
+            </div>
+            <div class="work">
+              <img
+                class="work-photo"
+                src="images/content/VR-shop-logo.png"
+                width="370px"
+                height="209px"
+                alt="work-shop-logo"
+              />
+              <div class="work-content">
+                <div class="work-cat">category: Online Shop</div>
+                <div class="work-title">
+                  <a
+                    href="https://arkhipovanatoly.github.io/VR-glasses/"
+                    target="_blank"
+                    >Online Shop Example</a
+                  >
+                  <div class="work-date">2019</div>
+                </div>
+              </div>
+            </div>
 
-      <div class="intro">
-        <div class="intro-inner">
-          <section class="intro-content">
-            <span class="intro-subtitle">Hello i'm</span>
-            <h1 class="intro-title">Anatoly Arkhipov</h1>
-            <span class="intro-text">a Web Developer</span>
-          </section>
-          <section class="intro-contacts">
-            <h2 class="intro-subtitle">Let's get in touch:</h2>
-            <ul>
-              <li class="contacts-item">
-                <img src="images/icons/email.png" alt="email" class="contacts-item-icon" />
-                <a href="mailto:arhipovanatoly@gmail.com"><strong>arhipovanatoly@gmail.com</strong></a>
-              </li>
-              <li class="contacts-item">
-                <img src="images/icons/phone-call.png" alt="phone" class="contacts-item-icon" />
-                <a href="tel:+79506128772"><strong>+7 (950)-612-87-72</strong>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </div>
-      </div>
-
-      <section class="works">
-        <h3 class="text-center">My works</h3>
-        <div class="portfolio">
-          <div class="work">
-            <img class="work-photo" src="images/content/browser-game-logo.png" alt="blog-logo" />
-            <div class="work-content">
-              <div class="work-cat">category: Games</div>
-              <div class="work-title">
-                <a href="https://arkhipovanatoly.github.io/Game/" target="_blank">Brouser Game Example </a>
-                <div class="work-date">2019</div>
+            <div class="work">
+              <img
+                class="work-photo"
+                src="images/content/delivery-logo.png"
+                width="370px"
+                height="209px"
+                alt="work-delivery-logo"
+              />
+              <div class="work-content">
+                <div class="work-cat">category: website</div>
+                <div class="work-title">
+                  <a href="https://arkhipovanatoly.github.io/Delivery-Company/">
+                    Delivery Company example</a
+                  >
+                  <div class="work-date">2019</div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="work">
-            <img class="work-photo" src="images/content/VR-shop-logo.png" alt="VR-shop image" />
-            <div class="work-content">
-              <div class="work-cat">category: Online Shop</div>
-              <div class="work-title">
-               <a href="https://arkhipovanatoly.github.io/VR-glasses/" target="_blank">Online Shop Example</a> 
-                <div class="work-date">2019</div>
-              </div>
+        </section>
+
+        <section class="about-content">
+          <h3 class="about-title text-right">about me</h3>
+          <p class="about-text">
+            I am self-motivated and team player with excellent communication,
+            analytical and problem solving skills.
+          </p>
+          <p class="about-text">
+            My today's goal is to develop in the way of web-development.
+          </p>
+        </section>
+
+        <section class="skills-content">
+          <h3 class="skills-title">Software Skills/Tools</h3>
+          <ul>
+            <li class="skills-item">
+              HTML5, CSS3, Bootstrap <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </li>
+            <li class="skills-item">
+              C, C++, C#
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </li>
+            <li class="skills-item">
+              Javascript, JSX, Typescript
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </li>
+
+            <li class="skills-item">
+              jQuery, React
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </li>
+            <li class="skills-item">
+              Visual Studio code/Microsoft Visual Studio
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </li>
+            <li class="skills-item">
+              Github
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="experience-content">
+          <h3 class="experience-title text-right">Experience</h3>
+          <p class="experience-text">
+            At the moment, I have no commercial experience as a web-developer,
+            but I am working hard to achieve this goal.
+          </p>
+        </section>
+
+        <section class="education-content">
+          <h3 class="education-title">Education</h3>
+          <p class="education-text">
+            Lobachevsky State University of Nizhny Novgorod, Radiophysics and
+            Electronics Specialty, 2008.
+          </p>
+        </section>
+
+        <section class="courses-content">
+          <h3 class="courses-title text-right">Courses</h3>
+          <ul>
+            <li class="courses-item">
+              <a href="https://nn.itstep.org/" target="_blank"
+                >Nizhny Novgorod IT Academy</a
+              >
+            </li>
+            <li class="courses-item">
+              <a href="https://www.udemy.com/" target="_blank"
+                >Udemy Course "Web Development"</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="language-content">
+          <h3 class="language-title">languages</h3>
+          <p class="language-text">Russian, English B1</p>
+        </section>
+
+        <footer class="footer">
+          <div class="footer-inner">
+            <div class="footer-info">
+              <div class="footer-copyright">&copy; 2021</div>
+            </div>
+            <div class="footer-icon">
+              <a href="https://github.com/ArkhipovAnatoly?" target="_blank"
+                ><img
+                  class="footer-item-icon"
+                  width="40px"
+                  height="40px"
+                  src="images/icons/icon-github.png"
+                  alt="github-icon"
+                />
+              </a>
+            </div>
+            <div class="footer-icon">
+              <a href="https://rs.school/js/" target="_blank">
+                <img
+                  src="images/icons/rs_school_js.svg"
+                  width="63px"
+                  height="63px"
+                  alt="rs_school_img"
+              /></a>
             </div>
           </div>
+        </footer>
+      </main>
+    </div>
 
-          <div class="work">
-            <img class="work-photo" src="images/content/delivery-logo.png" alt="" />
-            <div class="work-content">
-              <div class="work-cat">category: website</div>
-              <div class="work-title">
-               <a href="https://arkhipovanatoly.github.io/Delivery-Company/"> Delivery Company site example</a>
-                <div class="work-date">2020</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="about-content">
-        <h3 class="about-title text-right">about me</h3>
-        <p class="about-text">
-          I am self-motivated and team player with excellent communication,
-          analytical and problem solving skills.
-        </p>
-        <p class="about-text">
-          My today's goal is to develop in the way of web-development.
-        </p>
-      </section>
-
-      <section class="skills-content">
-        <h3 class="skills-title">Software Skills/Tools</h3>
-        <ul>
-          <li class="skills-item">HTML5, CSS3, Bootstrap <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-          </li>
-          <li class="skills-item">C, C++, C#
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-
-          </li>
-          <li class="skills-item">Javascript, JSX, Typescript
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-
-          </li>
-
-          <li class="skills-item">jQuery, React
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-          </li>
-          <li class="skills-item">
-            Visial Studio code/Microsoft Visual Studio
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked "></span>
-          </li>
-          <li class="skills-item">Github
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-          </li>
-        </ul>
-      </section>
-
-      <section class="expiriance-content">
-        <h3 class="expiriance-title text-right">Expiriance</h3>
-        <p class="expiriance-text">
-          At the moment, I have no commercial experience as a web-developer,
-          but I am working hard to achieve this goal.
-        </p>
-      </section>
-
-      <section class="education-content">
-        <h3 class="education-title">Education</h3>
-        <p class="education-text">
-          Lobachevsky State University of Nizhni Novgorod, Radiophysics and
-          Electonics Speciality, 2008.
-        </p>
-      </section>
-
-      <section class="courses-content">
-        <h3 class="courses-title text-right">Courses</h3>
-        <ul>
-          <li class="courses-item">
-            <a href="https://nn.itstep.org/" target="_blank">Nizhny Novgorod IT Academy</a>
-          </li>
-          <li class="courses-item">
-            <a href="https://www.udemy.com/" target="_blank">Udemy Course "Web Development"</a>
-          </li>
-        </ul>
-      </section>
-
-      <section class="language-content">
-        <h3 class="language-title">languages</h3>
-        <p class="language-text">Russian, English B1</p>
-      </section>
-
-      <footer class="footer">
-        <div class="footer-inner">
-          <div class="footer-info">
-            <div class="footer-copyright">&copy; 2021</div>
-          </div>
-          <div class="footer-icon">
-            <a href="https://github.com/ArkhipovAnatoly?" target="_blank"><img src="images/icons/icon-github.png" alt="github"
-                class="footer-item-icon" />
-            </a>
-          </div>
-          <div class="footer-icon">
-            <a href="https://rs.school/js/" target="_blank">
-              <img src="images/icons/rs_school_js.svg" width="63" height="63" alt="rs_school_img" /></a>
-          </div>
-        </div>
-      </footer>
-    </main>
-  </div>
-
-  <script src="index.js"></script>
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>
