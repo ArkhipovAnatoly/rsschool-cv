@@ -1,15 +1,17 @@
 :root {
   --black: #2b2a2c;
+  --dark-black: #000;
   --gray: #6a696b;
   --gray-light: #dedede;
   --white: #ffffff;
+  --light-blue: #339eb1;
 }
 
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  color: black;
+  color: var(--dark-black);
 }
 
 h1,
@@ -22,7 +24,6 @@ h6 {
 }
 
 * ul {
-
   padding: 0;
 }
 
@@ -41,7 +42,7 @@ h6 {
   width: 100%;
   max-width: 1200px;
   margin: 50px auto;
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 20px var(--dark-black);
 }
 
 .main {
@@ -66,8 +67,6 @@ h6 {
 }
 
 .user-avatar {
-  width: 200px;
-  height: 200px;
   border-radius: 50%;
 }
 
@@ -116,18 +115,14 @@ h6 {
 }
 
 .contacts-item-icon {
-  width: 32px;
-  height: 32px;
   vertical-align: middle;
   margin-right: 10px;
 }
 
 .contacts-item {
-
   list-style: none;
   line-height: 4;
   font-size: 1.3rem;
-
 }
 
 .skills-item,
@@ -137,10 +132,8 @@ h6 {
   font-size: 1.3rem;
 }
 
-
 a:hover {
-
-  color: salmon
+  color: salmon;
 }
 
 .text-center {
@@ -197,11 +190,10 @@ a:hover {
 .about-content,
 .education-content,
 .skills-content,
-.expiriance-content,
+.experience-content,
 .courses-content .language-content {
   width: 100%;
   margin-bottom: 2rem;
-
 }
 
 .about-title,
@@ -209,7 +201,7 @@ a:hover {
 .language-title,
 .courses-title,
 .education-title,
-.expiriance-title {
+.experience-title {
   color: var(--black);
   font-size: 2rem;
   font-weight: bold;
@@ -219,7 +211,7 @@ a:hover {
 
 .about-text,
 .education-text,
-.expiriance-text,
+.experience-text,
 .language-text {
   color: var(--gray);
   font-size: 1.5rem;
@@ -228,23 +220,19 @@ a:hover {
 }
 
 .text-right {
-
   text-align: right;
-
 }
 
 .footer {
-  background-color: #339eb1;
+  background-color: var(--light-blue);
   margin-top: 50px;
-  box-shadow: 0 0 15px #339eb1;
-
+  box-shadow: 0 0 15px var(--light-blue);
 }
 
 .footer-inner {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .footer-info {
@@ -260,16 +248,12 @@ a:hover {
 }
 
 .footer-item-icon {
-
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
 }
 
 .checked {
   color: orange;
 }
-
 
 @media (max-width: 1199px) {
   .intro {
@@ -288,7 +272,6 @@ a:hover {
   }
 
   .work-photo {
-
     width: 100%;
   }
 
@@ -354,7 +337,7 @@ a:hover {
   .about-title,
   .education-title,
   .skills-title,
-  .expiriance-title,
+  .experience-title,
   .language-title,
   .courses-title {
     text-align: center;
