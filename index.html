@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="icon" href="images/favicons/favicon.ico" />
     <title>CV Anatoly Arkhipov</title>
@@ -20,25 +25,45 @@
     <div class="container">
       <main class="main">
         <header class="header">
-          <div class="user">
-            <img
-              class="user-avatar"
-              src="images/avatar-photo.png"
-              width="200"
-              height="200"
-              alt="photo-user-avatar"
-            />
+          <div class="header-inner">
+            <div class="user">
+              <img
+                class="user-avatar"
+                src="images/avatar-photo.png"
+                width="200"
+                height="200"
+                alt="photo-user-avatar"
+              />
+            </div>
+            <nav class="header-nav">
+              <ul class="list">
+                <li class="list-item">
+                  <a class="nav_link" href="#works">my works</a>
+                </li>
+                <li class="list-item">
+                  <a class="nav_link" href="#about">about me</a>
+                </li>
+                <li class="list-item">
+                  <a class="nav_link" href="#education">education</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="menu__burger-button">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </header>
 
-        <div class="intro">
+        <section class="intro">
           <div class="intro-inner">
-            <section class="intro-content">
+            <div class="intro-content">
               <span class="intro-subtitle">Hello i'm</span>
               <h1 class="intro-title">Anatoly Arkhipov</h1>
               <span class="intro-text">a Web Developer</span>
-            </section>
-            <section class="intro-contacts">
+            </div>
+            <div class="intro-contacts">
               <h2 class="intro-subtitle">Let's get in touch:</h2>
               <ul>
                 <li class="contacts-item">
@@ -66,11 +91,25 @@
                   </a>
                 </li>
               </ul>
-            </section>
+            </div>
           </div>
-        </div>
+          <nav class="menu-nav">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a class="nav_link" href="#works">my works</a>
+              </li>
+              <li class="menu-item">
+                <a class="nav_link" href="#about">about me</a>
+              </li>
 
-        <section class="works">
+              <li class="menu-item">
+                <a class="nav_link" href="#education">education</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="works" id="works">
           <h3 class="text-center">My works</h3>
           <div class="portfolio">
             <div class="work">
@@ -135,7 +174,7 @@
           </div>
         </section>
 
-        <section class="about-content">
+        <section class="about-content" id="about">
           <h3 class="about-title text-right">about me</h3>
           <p class="about-text">
             I am self-motivated and team player with excellent communication,
@@ -146,7 +185,7 @@
           </p>
         </section>
 
-        <section class="skills-content">
+        <section class="skills-content" id="skills">
           <h3 class="skills-title">Software Skills/Tools</h3>
           <ul>
             <li class="skills-item">
@@ -198,9 +237,34 @@
               <span class="fa fa-star"></span>
             </li>
           </ul>
+          <span class="code">Code Example:</span>
+          <div class="code-example">
+            <pre><code class="javascript">  
+            function filterHomogenous(arrays) {
+              let result = [];
+            
+              let isString = false;
+              let isNumber = false;
+            
+              for (let i = 0; i &lt; arrays.length; i++) {
+                if (arrays[i].length === 0) {
+                  continue;
+                }
+                let subArray = arrays[i];
+                isNumber = subArray.every((val) => typeof val === "number");
+                isString = subArray.every((val) => typeof val === "string");
+                if (isNumber || isString) {
+                  result.push(arrays[i]);
+                }
+              }
+            
+              return result;
+            }
+        </code></pre>
+          </div>
         </section>
 
-        <section class="experience-content">
+        <section class="experience-content" id="expiriance">
           <h3 class="experience-title text-right">Experience</h3>
           <p class="experience-text">
             At the moment, I have no commercial experience as a web-developer,
@@ -208,7 +272,7 @@
           </p>
         </section>
 
-        <section class="education-content">
+        <section class="education-content" id="education">
           <h3 class="education-title">Education</h3>
           <p class="education-text">
             Lobachevsky State University of Nizhny Novgorod, Radiophysics and
@@ -216,7 +280,7 @@
           </p>
         </section>
 
-        <section class="courses-content">
+        <section class="courses-content" id="courses">
           <h3 class="courses-title text-right">Courses</h3>
           <ul>
             <li class="courses-item">
@@ -232,7 +296,7 @@
           </ul>
         </section>
 
-        <section class="language-content">
+        <section class="language-content" id="lang">
           <h3 class="language-title">languages</h3>
           <p class="language-text">Russian, English B1</p>
         </section>
@@ -267,6 +331,9 @@
       </main>
     </div>
 
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
     <script src="index.js"></script>
   </body>
 </html>
