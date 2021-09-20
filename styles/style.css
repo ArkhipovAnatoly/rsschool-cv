@@ -438,7 +438,7 @@ a:hover {
   }
 
   .work {
-    width: calc(60%);
+    width: calc(100%);
     margin: 1rem auto;
     border-radius: 1.5rem;
   }
@@ -502,6 +502,14 @@ a:hover {
 
   .footer-nav {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .work {
+    width: calc(73%);
+    margin: 1rem auto;
+    border-radius: 1.5rem;
   }
 }
 
