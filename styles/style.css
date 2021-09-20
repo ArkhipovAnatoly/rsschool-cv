@@ -266,12 +266,14 @@ a:hover {
 }
 
 .portfolio {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .work {
+  width: calc(100% / 3 - 20px);
   overflow: hidden;
   box-shadow: 0 0 4px black;
   border-radius: 10px;
@@ -389,9 +391,6 @@ a:hover {
     top: -75px;
   }
 
-  .portfolio {
-    width: 90%;
-  }
   .user-avatar {
     width: 150px;
     height: 150px;
@@ -406,7 +405,7 @@ a:hover {
   }
 
   .work {
-    width: 44%;
+    width: calc(80% / 2 - 20px);
     margin: 1rem auto;
     border-radius: 1.5rem;
   }
@@ -439,7 +438,7 @@ a:hover {
   }
 
   .work {
-    width: 54%;
+    width: calc(60%);
     margin: 1rem auto;
     border-radius: 1.5rem;
   }
@@ -508,9 +507,12 @@ a:hover {
 
 @media (max-width: 320px) {
   .work {
-    width: 100%;
+    width: calc(100%);
   }
   .contacts-item {
-    font-size: 15px;
+    font-size: 14px;
+  }
+  .work-photo {
+    object-fit: fill;
   }
 }
